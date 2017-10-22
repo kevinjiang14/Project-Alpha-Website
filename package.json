@@ -1,0 +1,20 @@
+{
+  "name": "webtest",
+  "version": "1.0.0",
+  "description": "Second attempt at creating a webpage",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kevin Jiang",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "dotenv": "^4.0.0",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "html": "^1.0.0",
+    "request": "^2.83.0",
+    "valid-url": "^1.0.9"
+  }
+}

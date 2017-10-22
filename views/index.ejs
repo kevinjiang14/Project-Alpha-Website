@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <% include partials/head.ejs %>
+  </head>
+
+  <body>
+    <% include partials/navigation.ejs %>
+    <h1>Project-Alpha</h1>
+    <div>
+      Project-Alpha is a 2D RPG dungeon crawler game. Fight your way through each floor while leveling up your character. As you progress through the dungeon you will come across bosses which must be defeated in order to progress in the game.<br/><br/>
+      The download link for this game is available
+      <a href="https://github.com/kevinjiang14/Project-Alpha/releases">here</a>.<br/>
+      Download the appropriate file for your OS.<br/>
+      Also please provide any feedback through
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSfauNyBikOs0r1wWxGFeeOHWuBKKLViv32ZaJvuJxocC8Nkww/viewform">here</a>.<br/>
+      <br/>
+      Controls
+      <ul id="bulletless">
+        <li>Arrow keys: Movement</li>
+        <li>A: Attack</li>
+        <li>Q: Inventory screen</li>
+        <li>E: Stats menu</li>
+        <li>C: Equipment menu</li>
+        <li>M: Minimap</li>
+        <li>1-6: Hotbar keys to use potions</li>
+        <li>ESC: Menu to quit the game</li>
+      </ul>
+      What to know when you start playing
+      <ul id="bulletless">
+        <li>The game may look like it freezes sometimes as you try to enter a new floor but it is just generating the next floor so don't restart the game.</li>
+        <li>No attacking animations done yet so watch your HP to avoid dying.</li>
+        <li>Currently Intelligence, Wisdom and Dexterity has no effect on gameplay.</li>
+        <li>The boss on floor 15 is not a bug.</li>
+      </ul>
+      Next Update may include
+      <ul id="bulletless">
+        <li>Message box to let you know when you receive items/gold</li>
+        <li>Ranged combat style</li>
+        <li>Item drops from enemies</li>
+        <li>And probably more</li>
+      </ul>
+      Planned Future Features
+      <ul id="bulletless">
+        <li>Skills and Spells</li>
+        <li>Magic and Archery battle types</li>
+        <li>Death penalty</li>
+        <li>Attacking animations</li>
+        <li>More enemies and bosses</li>
+        <li>More items</li>
+      </ul>
+    </div>
+
+    <% include partials/scripts.ejs %>
+  </body>
+</html>
